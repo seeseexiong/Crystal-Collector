@@ -1,5 +1,5 @@
 # Crystal Collector Game
-This is an interactive game with the web browser.
+This is an interactive game on the web browser.
 There are four crystals displayed as buttons on the page. Each crystal has a hidden value.
 The player will be shown a random number at the start of the game.
 To win, the player must click on the crystals and total their score to match with the random number from the beginning of the game.
