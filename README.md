@@ -1,7 +1,7 @@
 # Crystal Collector Game
 This is a interactive game.  Add up your points to match the random number.
 Each crystal have their own invisible number.  To win, you have to click the cystals and add up to match the random number.
-Click [###PLAY](https://seeseexiong.github.io/unit-4-game/) to get started
+Click ###[PLAY](https://seeseexiong.github.io/unit-4-game/) to get started
 
 ## Built with: 
 * HTML/CSS - wireframe
