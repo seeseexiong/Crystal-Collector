@@ -11,7 +11,7 @@ The game restarts whenever the player wins or loses.
 Click [PLAY](https://seeseexiong.github.io/unit-4-game/) to get started!
 
 ## Built With
-* HTML/CSS - Build the wireframe
+* HTML/CSS - Built the wireframe
 * jQuery - Made the game interactive with the user
 
 ## Authors
