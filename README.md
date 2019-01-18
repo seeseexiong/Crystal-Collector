@@ -8,7 +8,7 @@ The player loses if their score goes above the random number.
 The game restarts whenever the player wins or loses.
 
 ## Getting Started
-Click [PLAY](https://seeseexiong.github.io/unit-4-game/) to get started!
+Click [PLAY](https://seeseexiong.github.io/Crystal-Collector/) to get started!
 
 ## Built With
 * HTML/CSS - Built the wireframe
