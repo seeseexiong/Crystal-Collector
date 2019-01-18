@@ -10,6 +10,8 @@ The game restarts whenever the player wins or loses.
 ## Getting Started
 Click [PLAY](https://seeseexiong.github.io/Crystal-Collector/) to get started!
 
+![Alt Text](https://github.com/seeseexiong/Crystal-Collector/blob/master/assets/images/crystalcollector%20(2).JPG)
+
 ## Built With
 * HTML/CSS - Built the wireframe
 * jQuery - Made the game interactive with the user
