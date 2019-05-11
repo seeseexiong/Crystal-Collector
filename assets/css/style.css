@@ -1,7 +1,16 @@
-body {
-    background-image: url("../images/diamondpattern.jpg");
-}
+/* CSS for the instruction's box */
+#description {
+    background-color: rgba(247, 250, 96, 0.479);
+    color: rgb(38, 159, 196);
+   
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 30px;
 
+    margin-top: 50px;
+    padding: 25px 25px 25px 25px;
+    border: 10px outset gainsboro;
+}
 
 .alignCenter{
     margin-left: auto;
@@ -14,20 +23,7 @@ h1 {
     text-align: center;
 }
 
-/* CSS for the instruction's box */
-#description {
-    background-color: rgba(247, 250, 96, 0.479);
-    color: rgb(0, 0, 0);
-   
-    margin-left: 150px;
-    margin-right: 150px;
-    line-height: 30px;
-
-    margin-top: 50px;
-    padding: 25px 25px 25px 25px;
-    border: 10px outset gainsboro;
-}
-
+/* down size images */
 img {
     width: 150px;
 }
@@ -35,23 +31,25 @@ img {
 #randomNumber-div {
     background-color: rgba(196, 116, 243);
     color: rgb(14, 38, 117);
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
-    width: 350px;
+    /* width: 350px; */
     border: 2px outset gainsboro;
 }
+
 #total-score-div {
     text-align: center;
     background-color: rgb(12, 174, 185);
     color: white;
-    font-size: 35px;
-    width: 350px;
+    font-size: 25px;
+    /* width: 350px; */
     border: 2px outset gainsboro;
 }
+
 #score-div {
     background-color: rgba(221, 98, 50);
     color: white;
-    width: 350px;
+    /* width: 350px; */
     padding-left: 10px;
     padding-top: 10px;
     line-height: 5px;
@@ -62,48 +60,4 @@ img {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 90px;
-}
-
-@media screen and (max-width: 980px) {
-    #randomNumber-div {
-        margin-top: 10px;
-        margin-left: 400px;
-        border: 2px outset gainsboro;
-    }
-    #total-score-div {
-        margin-top: 10px;
-        margin-left: 150px;
-    }
-    #score-div {
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-right: 200px;
-    }
-    
-    #crystals-div {
-        margin-top: 30px;
-        margin-bottom: 90px;
-    }
-}
-/* Tablet  */
-@media screen and (max-width: 768px) {
-    #randomNumber-div {
-        margin-top: 10px;
-        margin-left: 65px;
-        border: 2px outset gainsboro;
-    }
-    #total-score-div {
-        margin-top: 10px;
-        margin-left: 35px;
-    }
-    #score-div {
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-left: 100px;
-    }
-    
-    #crystals-div {
-        margin-top: 30px;
-        margin-bottom: 90px;
-    }
 }
