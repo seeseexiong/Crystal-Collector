@@ -33,7 +33,6 @@ img {
     color: rgb(14, 38, 117);
     font-size: 25px;
     text-align: center;
-    /* width: 350px; */
     border: 2px outset gainsboro;
 }
 
@@ -42,14 +41,12 @@ img {
     background-color: rgb(12, 174, 185);
     color: white;
     font-size: 25px;
-    /* width: 350px; */
     border: 2px outset gainsboro;
 }
 
 #score-div {
     background-color: rgba(221, 98, 50);
     color: white;
-    /* width: 350px; */
     padding-left: 10px;
     padding-top: 10px;
     line-height: 5px;
@@ -61,3 +58,11 @@ img {
     margin-top: 30px;
     margin-bottom: 90px;
 }
+
+/* R E S P O N S I V E */
+@media screen and (max-width: 720px) {
+    #description {
+        margin: 0;
+    }
+}
+
