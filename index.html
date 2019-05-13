@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit-4-Game</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- jQuery libary CDN -->
+    <!-- Google jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Bootstrap -->
+    
+    <!-- Popper Min JS - place it before Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap jQuery CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <style>
         .resultsDiv {
@@ -21,22 +26,41 @@
 </head>
 <body>
 
+       
+
+
+
+    <!-- ----------------------- -->
     <div id="warp">
         <!-- Row 1 -->
         <div class="row">
             <div class="col-md-12">
                 <div id="description" class="alignCenter">
                     <h1>Crystals Collector!</h1>
-                    <p>A random number is drawn. 
-                    Below are four crystals, each with it's unique value. By clicking on a 
-                    crystal you will add that crystal's value to the counter.
-                    <br>
-                    To win the game, you must add up your counter to match exactly to the random number. However, if your counter is greater than the random number then you lose.
-                    
-                    The value of the crystals are hidden.
-    
-                    The value of each crystal changes for each game.
+                    <!-- Place instuction button here -->
+                    <p>
+                        <a class="btn btn-success" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Instruction
+                        </a>
                     </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <p>A random number is drawn. 
+                            Below are four crystals, each with it's unique value. By clicking on a 
+                            crystal you will add that crystal's value to the counter.
+                            <br>
+                            To win the game, you must add up your counter to match exactly to the random number. However, if your counter is greater than the random number then you lose.
+                            
+                            The value of the crystals are hidden.
+            
+                            The value of each crystal changes for each game.
+                            </p>
+                            
+                        </div><br>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Close
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
