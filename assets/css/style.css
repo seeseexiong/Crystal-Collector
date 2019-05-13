@@ -71,3 +71,9 @@ img {
     }
 }
 
+@media screen and (max-width: 500px) {
+    #description,#randomNumber-div, #total-score-div, #score-div {
+        margin: 0;
+    }
+}
+
