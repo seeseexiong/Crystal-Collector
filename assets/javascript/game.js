@@ -99,10 +99,5 @@ $(document).ready(function() {
     //MAIN PROCESS STARTS HERE -----------------------------------------------------------------------------
     playGame();
     
-// BOOTSTRAP
-
-//     $('#myCollapsible').on('hidden.bs.collapse', function () {
-//         .collapse('show')
-//   })
 });
 
