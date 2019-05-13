@@ -17,11 +17,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <style>
-        .resultsDiv {
-            margin-top: 30px;
-            margin-left: 150px;
-            margin-right: 150px;
-        }
+       
     </style>
 </head>
 <body>
@@ -57,25 +53,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Row 2, 2 columns -->
-        <div class="row resultsDiv ">
-            <!-- Computer's Guess -->
-            <div class="col-md-4">
-                <p id="randomNumber-div">Chosen Number: <span id="targetNumber"></span></p>
-            </div>
-            <!-- Your Counter -->
-            <div class="col-md-4" >
-                <div id="total-score-div">Your Counter: <span id="totalScore"></span></div>
-            </div>
-            <!-- Wins/Losses SCORES-->
-            <div class="col-md-4" >
-                <div id="score-div">
-                    <p>Wins: <span id="win-text"></span></p>
-                    <p>Losses: <span id="losses-text"></span></p>
+            <!-- results -->
+            <div class="container" >
+                <!-- Row 2, 2 columns -->
+                <div class="row resultsDiv ">
+                    <!-- Computer's Guess -->
+                    <div class="col-md-4">
+                        <p id="randomNumber-div">Chosen Number: <span id="targetNumber"></span></p>
+                    </div>
+                    <!-- Your Counter -->
+                    <div class="col-md-4" >
+                        <div id="total-score-div">Your Counter: <span id="totalScore"></span></div>
+                    </div>
+                    <!-- Wins/Losses SCORES-->
+                    <div class="col-md-4" >
+                        <div id="score-div">
+                            <p>Wins: <span id="win-text"></span></p>
+                            <p>Losses: <span id="losses-text"></span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
         <div class="row">
             <div class="col-md-12" >
                 <!-- Images -->
