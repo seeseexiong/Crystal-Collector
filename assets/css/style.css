@@ -1,6 +1,6 @@
 /* CSS for the instruction's box */
 #description {
-    background-color: rgba(247, 250, 96, 0.479);
+    background-color: rgb(254, 247, 54);
     color: rgb(38, 159, 196);
    
     margin-left: 150px;
@@ -31,17 +31,20 @@ img {
 #randomNumber-div {
     background-color: rgba(196, 116, 243);
     color: rgb(14, 38, 117);
+    height: 50px;
     font-size: 25px;
     text-align: center;
     border: 2px outset gainsboro;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0;
 }
 
 #total-score-div {
     text-align: center;
     background-color: rgb(12, 174, 185);
     color: white;
+    height: 50px;
     font-size: 25px;
     border: 2px outset gainsboro;
     padding-left: 10px;
@@ -51,11 +54,16 @@ img {
 #score-div {
     background-color: rgba(221, 98, 50);
     color: white;
+    height: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     line-height: 5px;
     border: 2px outset gainsboro;
+}
+
+.crystalClass:active {
+  transform: translateY(4px);
 }
 
 #crystals-div {
@@ -71,9 +79,17 @@ img {
 }
 
 /* R E S P O N S I V E */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 992px) {
     #description {
         margin: 0;
+    }
+
+    #randomNumber-div, #total-score-div, #score-div {
+        height: 85px;
+    }
+
+    #crystals-div {
+        margin-top: 30px;
     }
 }
 
