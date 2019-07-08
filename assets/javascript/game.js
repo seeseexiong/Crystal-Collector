@@ -52,7 +52,7 @@ $(document).ready(function() {
                 //image file and crystalValue
             crystalImg.attr({
                 src: imagesOfCrystal[i], 
-                value: crystalValue[i]
+                value: crystalValue[i],
             });
         
             //display the images on the html #crystals-div
@@ -62,8 +62,10 @@ $(document).ready(function() {
         //ADD UP YOUR COUNTERS (valuse of the clicked crystals) --------------
         //when the crystalClass class is clicked .........
         $('.crystalClass').on('click', function(){
+            
             //the value of it's attribute ...
             var clickedValue = ($(this).attr('value'));
+
             //turns into an interger ...
             clickedValue = parseInt(clickedValue);
             //this value gets add up into the global veriable yourCounter
@@ -89,10 +91,13 @@ $(document).ready(function() {
             };
         });
 
+
         //when a new round starts, your counter is 0
         yourCounter = 0;
         $("#totalScore").text(" " + yourCounter);
     };
+
+
 
  
 
